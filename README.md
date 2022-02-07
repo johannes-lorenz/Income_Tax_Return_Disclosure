@@ -1,4 +1,4 @@
-<h1> The Impact of Income Tax Return Disclosure on Tax Avoidance and Tax Evasion -- Insights from an Agent-Based Model</h1>
+<h1> The Impact of Income Tax Return Disclosure on Tax Avoidance and Tax Evasion – Insights from an Agent-Based Model</h1>
 
 <p>This repository contains python code for the agent based simulation described in the above paper.</p>
 
@@ -11,6 +11,6 @@
 	<li>The folder 3_output contains svg-pictures for Scenarios 1–3, as shown in the paper (produced by TaxReturnDisclosure.ipynb), as well as a Watts-Strogatz network with the parameters used in the paper in the gexf format.</li>
 </ul> 
 
-<p>Please feel free to use or modify the code or take any parts of it that might be useful. If you use the model (or modifications) for publications, we would appreciate it if you cite the above paper. If you have any questions or comments, please feel free to contact us. Also, we are interested in further research in this area. So if you use the model, modifications of it (or your own model), please drop us a line.</p>
+<p>Please feel free to use or modify the code or take any parts of it that might be useful. If you have any questions or comments, please feel free to contact us. Also, we are interested in further research in this area. So if you use the model, modifications of it (or your own model), please drop us a line.</p>
 
 <p>–The authors</p>
