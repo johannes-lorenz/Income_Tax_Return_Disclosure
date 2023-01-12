@@ -15,7 +15,7 @@ from mesa.datacollection import DataCollector
 from mesa.batchrunner import BatchRunner, BatchRunnerMP
 
 
-os.chdir('/Users/johannes/GitHub/TaxReturnDisclosure')
+os.chdir('/Users/johannes/GitHub/Income_Tax_Return_Disclosure')
 
 class Disclosure(Model):
     """A model with some number of agents."""
