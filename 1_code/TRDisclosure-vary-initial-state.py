@@ -244,7 +244,7 @@ class TaxAgent(Agent):
         if self.state != 0 and self.former_strategy != 4:
             if self.sum_evasion > self.sum_avoidance and self.sum_evasion > self.sum_honesty and self.audit_counter == 0:
                 self.state = 3
-            elif self.sum_avoidance > self.sum_evasion and self.sum_avoidance > self.sum_honesty and self.audit_counter == 0:#Letzte Bedingung: erwischte Hinterzieher dürfen auch nicht optimieren.
+            elif self.sum_avoidance > self.sum_evasion and self.sum_avoidance > self.sum_honesty and self.audit_counter == 0:
                 self.state = 2
             elif self.sum_honesty > self.sum_evasion and self.sum_honesty > self.sum_avoidance:
                 self.state = 1
@@ -273,7 +273,6 @@ class TaxAgent(Agent):
                 self.tax = self.tax_rate * self.income
             else:
                 """ Calculate avoider's tax payment """
-                #self.tax = self.opt_avoidance * self.tax_rate * self.income * (1 - np.random.exponential(1 / self.complexity)) + (1 - self.opt_avoidance) * self.tax_rate * self.income
                 self.tax = self.tax_rate * self.income * (1 - np.random.exponential(self.opt_avoidance / self.complexity))
     
     """ Discount audit blocking period """

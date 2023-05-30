@@ -266,7 +266,6 @@ class TaxAgent(Agent):
                 self.tax = self.tax_rate * self.income
             else:
                 """ Calculate avoider's tax payment """
-                #self.tax = self.opt_avoidance * self.tax_rate * self.income * (1 - np.random.exponential(1 / self.complexity)) + (1 - self.opt_avoidance) * self.tax_rate * self.income
                 self.tax = self.tax_rate * self.income * (1 - np.random.exponential(self.opt_avoidance / self.complexity))
     
     """ Discount audit blocking period """

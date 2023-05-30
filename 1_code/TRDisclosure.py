@@ -230,7 +230,7 @@ class TaxAgent(Agent):
         if self.state != 0 and self.first_step != 1:
             if self.sum_evasion > self.sum_avoidance and self.sum_evasion > self.sum_honesty and self.audit_counter == 0:
                 self.state = 3
-            elif self.sum_avoidance > self.sum_evasion and self.sum_avoidance > self.sum_honesty and self.audit_counter == 0:#Letzte Bedingung: erwischte Hinterzieher dürfen auch nicht optimieren.
+            elif self.sum_avoidance > self.sum_evasion and self.sum_avoidance > self.sum_honesty and self.audit_counter == 0:
                 self.state = 2
             elif self.sum_honesty > self.sum_evasion and self.sum_honesty > self.sum_avoidance:
                 self.state = 1
