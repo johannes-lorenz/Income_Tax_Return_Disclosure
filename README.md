@@ -1,4 +1,4 @@
-<h1> The Impact of Income Tax Return Disclosure on Tax Avoidance and Tax Evasion – Insights from an Agent-Based Model</h1>
+<h1> The Impact of Public Income Tax Return Disclosure on Tax Avoidance and Tax Evasion – Insights from an Agent-Based Model</h1>
 
 <p>This repository contains python code for the agent based simulation described in the above paper.</p>
 
